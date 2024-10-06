@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "masquerader_mod:blank_mask"
+    },
+    "title": {
+      "translate": "advancements.masquerader_mod.ballroom_advancement"
+    },
+    "description": {
+      "translate": "advancements.masquerader_mod.ballroom_advancement_desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "masquerader_mod:get_invited",
+  "criteria": {
+    "in_ballroom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "masquerader_mod:masquerade_ballroom"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "in_ballroom"
+    ]
+  ]
+}

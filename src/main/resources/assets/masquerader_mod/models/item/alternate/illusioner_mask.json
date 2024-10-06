@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "masquerader_mod:item/alternate/illusioner_mask"
+  }
+}

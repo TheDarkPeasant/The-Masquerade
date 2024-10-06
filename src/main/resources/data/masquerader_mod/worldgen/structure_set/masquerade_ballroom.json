@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "masquerader_mod:masquerade_ballroom",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "masquerader_mod:ballroom_random_spread",
+    "salt": 1238586949,
+    "spread_type": "triangular",
+    "spacing": 200,
+    "separation": 60
+  }
+}

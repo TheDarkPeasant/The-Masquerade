@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "masquerader_mod:item/illusioner_mask"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "alternate_texture": 1.0
+      },
+      "model": "masquerader_mod:item/alternate/illusioner_mask"
+    }
+  ]
+}

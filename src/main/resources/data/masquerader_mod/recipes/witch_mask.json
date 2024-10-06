@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    " M ",
+    " E "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_wart"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "M": {
+      "item": "masquerader_mod:blank_mask"
+    },
+    "E": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "result": {
+    "item": "masquerader_mod:witch_mask",
+    "count": 1
+  }
+}

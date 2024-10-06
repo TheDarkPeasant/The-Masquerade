@@ -1,0 +1,34 @@
+{
+  "masquerader_change_mask": {
+    "subtitle": "sounds.masquerader_mod.masquerader_change_mask",
+    "sounds": [
+      "masquerader_mod:masquerader_change_mask"
+    ]
+  },
+  "masquerader_laugh": {
+    "subtitle": "sounds.masquerader_mod.masquerader_laugh",
+    "sounds": [
+      "masquerader_mod:masquerader_laugh"
+    ]
+  },
+  "masquerader_prepare_clone": {
+    "subtitle": "sounds.masquerader_mod.masquerader_prepare_clone",
+    "sounds": [
+      "masquerader_mod:masquerader_prepare_clone"
+    ]
+  },
+  "masquerader_death": {
+    "subtitle": "sounds.masquerader_mod.masquerader_death",
+    "sounds": [
+      "masquerader_mod:masquerader_death1",
+      "masquerader_mod:masquerader_death2"
+    ]
+  },
+  "clone_death": {
+    "subtitle": "sounds.masquerader_mod.clone_death",
+    "sounds": [
+      "masquerader_mod:clone_death1",
+      "masquerader_mod:clone_death2"
+    ]
+  }
+}

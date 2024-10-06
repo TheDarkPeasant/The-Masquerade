@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    " M ",
+    " J "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ghast_tear"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "M": {
+      "item": "masquerader_mod:blank_mask"
+    },
+    "J": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "result": {
+    "item": "masquerader_mod:illusioner_mask",
+    "count": 1
+  }
+}

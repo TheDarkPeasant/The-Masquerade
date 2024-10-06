@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    " M ",
+    " E "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chain"
+    },
+    "S": {
+      "item": "minecraft:saddle"
+    },
+    "M": {
+      "item": "masquerader_mod:blank_mask"
+    },
+    "E": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "result": {
+    "item": "masquerader_mod:ravager_mask",
+    "count": 1
+  }
+}

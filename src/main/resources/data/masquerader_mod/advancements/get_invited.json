@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "masquerader_mod:invitation"
+    },
+    "title": {
+      "translate": "advancements.masquerader_mod.invitation_advancement"
+    },
+    "description": {
+      "translate": "advancements.masquerader_mod.invitation_advancement_desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "masquerader_mod:invitation"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
